@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="4b44-53c3-10bc-949c" name="Space Marines2" gameSystemId="sys-40a3-0cde-5893-2d56" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Scoots" authorContact="https://github.com/WhatTheScoots">
+<catalogue library="false" id="4b44-53c3-10bc-949c" name="Space Marines2" gameSystemId="sys-40a3-0cde-5873-2d56" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Scoots" authorContact="https://github.com/WhatTheScoots">
   <sharedProfiles>
     <profile name="Intercessor" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="9951-2a2b-dba9-600e">
       <characteristics>
