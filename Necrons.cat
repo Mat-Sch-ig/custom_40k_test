@@ -18,7 +18,7 @@
     <sharedSelectionEntries>
         <selectionEntry type="unit" import="true" name="Cryptomancer Squad" hidden="false" id="e722-cc1b-a779-484c1">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Cryptomancer" hidden="false" id="eec8-9036-a1ed-2ac9" defaultAmount="4">
+                <selectionEntry type="model" import="true" name="Cryptomancer" hidden="false" id="ejc8-9036-a1ed-2ac9" defaultAmount="4">
                 <constraints>
                     <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="e722-cc1b-a779-484c2" includeChildSelections="true"/>
                     <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="e722-cc1b-a779-484c3" includeChildSelections="false"/>
