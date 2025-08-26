@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="4b44-53c3-10bc-949c" name="Necrons" gameSystemId="sys-40a3-0cde-5873-2d56" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Scoots" authorContact="https://github.com/WhatTheScoots">
+  <sharedProfiles>
+        <profile name="Cryptomancer" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=35ed-dd92-b806-47d7>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">4</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">2</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">3</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">2</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">4+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Lord" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=2a91-8100-77a0-42c1>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">2+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">5</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">5</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">4</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">4</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">3</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Royal Warden" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=e4e8-7ce5-29a9-4035>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">5</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">5</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">3</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">3</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">2</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Skorpekh Lord" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=03c1-6fa0-2e7e-4012>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">2+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">6</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">6</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">6</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">4</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">4</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Flayed Ones" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=f9aa-38ed-898d-45f5>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">6+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">4</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">1</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">3</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">1</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">4+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Immortals" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=76e3-318a-db72-46d9>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">5</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">2</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">2</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">1</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Warriors" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=1329-9522-a8ba-43f3>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">4+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">4+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">4</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">1</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">2</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">1</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">4+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Ctan Shard" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=e79e-7a46-3b8f-4e15>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">6</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">7</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">6</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">4</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">4</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Ctan Shard of the Dragon" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=3428-a246-5091-49ce>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">2+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">6</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">7</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">6</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">4</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">4</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Ctan Shard of the Deceiver" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=b176-d2c8-7d79-4114>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">6</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">7</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">6</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">5</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">4</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Ctan Shard of the Nightbringer" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=bb1d-2224-49fd-4373>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">6</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">7</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">6</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">4</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">5</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Canoptek Spyders" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=4e36-b552-8bca-462f>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">4+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">4+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">6</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">6</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">4</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">2</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">4</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Cryptothralls" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=45c9-3f7f-be49-4c7b>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">4+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">4+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">5</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">5</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">2</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">2</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">2</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Deathmarks" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=ca7c-e9bc-c365-4091>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">2+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">5</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">2</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">2</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">1</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Hexmark Destroyer" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=015b-77a7-cea1-43e9>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">2+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">5</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">5</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">3</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">2</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">2</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Lychguard" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=8408-6bf4-9a52-4638>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">2+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">5</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">5</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">2</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">3</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">2</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Pariahs" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=4e26-d630-e72b-4dda>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">5</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">5</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">2</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">4</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">3</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Plasmacyte" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=20aa-1f50-e17a-4f3a>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">-</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">-</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">5</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">1</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">-</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">-</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">4+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Skorpekh Destroyers" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=d1fb-2f9c-0483-481b>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">5</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">2</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">3</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">1</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Canoptek Scarabs" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=0bc3-cb71-1214-4796>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">12"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">4+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">6+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">3</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">3</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">3</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">2</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">3</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">6+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Canoptek Wraiths" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=0c44-a960-fcaf-43e8>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">12"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">4+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">4+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">5</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">2</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">2</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">4</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Ophydian Destroyers" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=2da9-1ad1-00e3-4de0>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">12"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">4</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">2</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">3</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">1</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">4+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Tomb Blades" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=d3d7-85e5-01c3-4b45>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">12"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">5</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">2</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">2</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">1</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">4+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Triarch Praetorians" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=e73c-e466-97de-4bb4>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">12"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">5</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">5</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">2</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">3</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">2</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+        <profile name="Lokhust Destroyers" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id=6582-7745-d240-434d>
+            <characteristics>
+            <characteristic name="M" typeId="2734-8af3-55f8-d225">12"&quot;</characteristic>
+            <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">3+</characteristic>
+            <characteristic name="BS" typeId="2134-4e17-7efb-7cdd">3+</characteristic>
+            <characteristic name="S" typeId="355a-95af-e32c-6a76">4</characteristic>
+            <characteristic name="T" typeId="f0a6-a47d-9895-24fd">6</characteristic>
+            <characteristic name="W" typeId="c1fc-cf0a-04a8-aa5d">3</characteristic>
+            <characteristic name="I" typeId="4f40-356e-7cce-48e8">2</characteristic>
+            <characteristic name="A" typeId="2813-4494-0abe-7149">1</characteristic>
+            <characteristic name="LD" typeId="1a6c-9e94-a0f5-84ec">10</characteristic>
+            <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
+            </characteristics>
+        </profile>
+</catalogue>
