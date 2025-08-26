@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="4b44-53c3-10bc-949c" name="Necrons" gameSystemId="sys-40a3-0cde-5873-2d56" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Scoots" authorContact="https://github.com/WhatTheScoots">
+<catalogue library="false" id="4b54-53c3-10bc-949c" name="Necrons" gameSystemId="sys-40a3-1cde-5873-2d56" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Scoots" authorContact="https://github.com/WhatTheScoots">
   <sharedProfiles>
         <profile name="Cryptomancer" typeId="a016-3bd5-58b1-188d" typeName="Profile" hidden="false" id="0e01-8dd8-eecb-4a64">
             <characteristics>
