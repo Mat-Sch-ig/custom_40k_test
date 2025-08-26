@@ -110,7 +110,7 @@
         <categoryLink name="Troops" hidden="false" id="ffaf-f9a2-9c49-f15e" targetId="2a68-9526-9cb0-16c3" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Cryptomancer Squad" hidden="false" id="7dr5-d22b-1852-9e86" type="selectionEntry" targetId="9c9d-b174-73fb-19ec">
+    <entryLink import="true" name="Cryptomancer Squad" hidden="false" id="7dr5-d22b-1852-9e86" type="selectionEntry" targetId="e2f4-6fd2-602b-43061">
       <categoryLinks>
         <categoryLink name="Troops" hidden="false" id="ffaf-f9a2-9c49-f15e" targetId="2a68-9526-9cb0-16c3" primary="true"/>
       </categoryLinks>
