@@ -78,6 +78,31 @@
         <infoLink name="They Shall Know No Fear" id="26ec-e74b-8572-4167" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Cryptomancer Squad" hidden="false" id="e2f4-6fd2-602b-43061">
+        <selectionEntries>
+            <selectionEntry type="model" import="true" name="Cryptomancer" hidden="false" id="e2f4-6fd2-602b-430614" defaultAmount="4">
+            <constraints>
+                <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="e2f4-6fd2-602b-43062" includeChildSelections="true"/>
+                <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="e2f4-6fd2-602b-43063" includeChildSelections="false"/>
+            </constraints>
+            <costs>
+                <cost name="pts" typeId="40d8-7900-73a1-1378" value=34/>
+            </costs>
+            <infoLinks>
+                <infoLink name="Krak Grenades" id="e2f4-6fd2-602b-43064" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                <infoLink name="Bolt Pistol" id="e2f4-6fd2-602b-43065" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
+            </infoLinks>
+            </selectionEntry>
+        </selectionEntries>
+        <categoryLinks>
+            <categoryLink name="Infantry" hidden="false" id="e2f4-6fd2-602b-430610" targetId="79f3-f25d-2e24-7130" primary="false"/>
+            <categoryLink name="Troops" hidden="false" id="e2f4-6fd2-602b-430611" targetId="2a68-9526-9cb0-16c3" primary="true"/>
+        </categoryLinks>
+        <infoLinks>
+            <infoLink name="Combat Squads" id="e2f4-6fd2-602b-430612" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
+            <infoLink name="They Shall Know No Fear" id="e2f4-6fd2-602b-430613" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+        </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Intercessor Squad" hidden="false" id="7de5-d22b-1852-9e86" type="selectionEntry" targetId="9b9d-b174-73fb-19ec">
