@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="c8ad-14e3-9186-484f" name="Necrons3" gameSystemId="sys-40a3-0cde-5873-2d56" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Scoots" authorContact="https://github.com/WhatTheScoots">
+<catalogue library="false" id="c8ad-14e3-9186-484f" name="Necrons" gameSystemId="sys-40a3-0cde-5873-2d56" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorName="Scoots" authorContact="https://github.com/WhatTheScoots">
   <sharedProfiles>
         <profile name="Cryptomancer" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="90f5-fce8-59de-4b6f">
             <characteristics>
@@ -99,7 +99,7 @@
                 <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">4+</characteristic>
             </characteristics>
         </profile>
-        <profile name="Ctan Shard" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="d5f7-57e5-0436-49ab">
+        <profile name="C'tan Shard" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="c329-111b-8e73-4bc7">
             <characteristics>
                 <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
                 <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
@@ -113,7 +113,7 @@
                 <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
             </characteristics>
         </profile>
-        <profile name="Ctan Shard of the Dragon" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="ddf4-16b1-cc77-4458">
+        <profile name="C'tan Shard of the Dragon" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="d1ba-a869-5453-482b">
             <characteristics>
                 <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
                 <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
@@ -127,7 +127,7 @@
                 <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
             </characteristics>
         </profile>
-        <profile name="Ctan Shard of the Deceiver" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="d945-8faa-e6e5-4d75">
+        <profile name="C'tan Shard of the Deceiver" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="1c8c-3f84-053e-45ce">
             <characteristics>
                 <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
                 <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
@@ -141,7 +141,7 @@
                 <characteristic name="SV" typeId="512f-e34e-70e2-c6d9">3+</characteristic>
             </characteristics>
         </profile>
-        <profile name="Ctan Shard of the Nightbringer" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="0114-0bfe-33de-4df5">
+        <profile name="C'tan Shard of the Nightbringer" typeId="a016-3bd5-58b1-188d" typeName="Unit" hidden="false" id="e88a-eb9b-f261-4081">
             <characteristics>
                 <characteristic name="M" typeId="2734-8af3-55f8-d225">6"&quot;</characteristic>
                 <characteristic name="WS" typeId="b8b1-cb7e-422b-9e59">2+</characteristic>
@@ -353,762 +353,816 @@
         </profile>
     </sharedProfiles>
     <sharedSelectionEntries>
-        <selectionEntry type="unit" import="true" name="Cryptomancer Squad" hidden="false" id="bbff-3614-2645-4a78">
+        <selectionEntry type="unit" import="true" name="Cryptomancer" hidden="false" id="bbff-3614-2645-4a78">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Cryptomancer" hidden="false" id="77e3-d6a4-6845-4ec54" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Cryptomancer" hidden="false" id="f166-c60b-912b-47c04" defaultAmount=1>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="929d-e737-1b52-476d" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="1102-96c9-0284-4bb3" includeChildSelections="false"/>
+                        <constraint type="max" value=1 field="selections" scope="parent" shared="true" id="af73-72d9-9c93-46e2" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="a49a-f960-8777-4fd6" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="34"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="10b4-6dc6-ea6f-4fb8" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="ce36-2548-6c38-4fca" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="-" id="534d-6e63-5fe8-46d9" hidden="false" type="profile" targetId="387a-0ddd-7e11-48a9"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="b394-0369-cd63-40e30" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="b394-0369-cd63-40e31" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="HQ" hidden="false" id="4632-71ad-4c65-47c2" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="a29b-b551-89dc-4a5c" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="3d9e-b5c5-b6dd-4c60" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Command squad" id="de70-e5c9-1890-402a" hidden="false" type="rule" targetId="3bb3-3db8-a1f6-9b22"/>
+                <infoLink name="Regeneration(1)" id="bc93-82a2-78c0-46f5" hidden="false" type="rule" targetId="9356-1a33-72c0-fa1b"/>
+                <infoLink name="<Necron>" id="1e5c-8ff1-56b0-45fa" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
+                <infoLink name="Royal Court" id="744a-4cab-4c4c-4ddd" hidden="false" type="rule" targetId="48dc-7d4a-870e-4b13"/>
+                <infoLink name="Rites of Reanimation" id="a30b-4acf-6b5a-4476" hidden="false" type="rule" targetId="3e15-9bd9-dd7f-485a"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Lord Squad" hidden="false" id="ceff-75fd-cdc0-4371">
+        <selectionEntry type="unit" import="true" name="Lord" hidden="false" id="ceff-75fd-cdc0-4371">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Lord" hidden="false" id="adf9-3985-ab92-49654" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Lord" hidden="false" id="b2dd-1069-421b-432a4" defaultAmount=1>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="63fc-ae8a-1a5a-46c3" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="500e-e2ac-b135-4cc2" includeChildSelections="false"/>
+                        <constraint type="max" value=1 field="selections" scope="parent" shared="true" id="75f1-f116-75d0-421e" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="2872-5704-5eca-46be" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="100"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="62e1-a4e5-7dcd-45ec" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="b525-3baa-545d-4c57" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="-" id="1e46-60a5-5283-4778" hidden="false" type="profile" targetId="387a-0ddd-7e11-48a9"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="5379-5f1a-a12d-40820" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="5379-5f1a-a12d-40821" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="HQ" hidden="false" id="b1ec-1387-d5cf-4255" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="b652-6459-8afe-4b48" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="ccea-36dd-bd24-4c8a" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="<Necron>" id="f271-ecf6-1551-4a83" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
+                <infoLink name="Regeneration(1)" id="79f7-7358-c163-49b3" hidden="false" type="rule" targetId="9356-1a33-72c0-fa1b"/>
+                <infoLink name="Royal Court" id="9aaf-3313-adf2-4928" hidden="false" type="rule" targetId="48dc-7d4a-870e-4b13"/>
+                <infoLink name="Royal Necrodermis" id="0932-f7b9-1e6a-4031" hidden="false" type="rule" targetId="8453-b21a-c75b-426f"/>
+                <infoLink name="Necrodermis" id="9883-d6c1-72e7-4f33" hidden="false" type="rule" targetId="9009-1d43-df6a-4a3f"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Royal Warden Squad" hidden="false" id="b67b-30fd-b1ff-4fd0">
+        <selectionEntry type="unit" import="true" name="Royal Warden" hidden="false" id="b67b-30fd-b1ff-4fd0">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Royal Warden" hidden="false" id="1c09-1d50-108d-4dcc4" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Royal Warden" hidden="false" id="e584-cb1f-bdaa-4b0c4" defaultAmount=1>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="549a-fa47-08a3-4298" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="0d48-9016-685c-43ca" includeChildSelections="false"/>
+                        <constraint type="max" value=1 field="selections" scope="parent" shared="true" id="4d43-a8bd-3adf-48ee" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="b8b4-1d92-7a4b-4d6a" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="86"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="7f56-ed6e-c414-48d6" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="77bb-1c98-e798-41ec" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Relic gauss blaster" id="2ea7-3ff0-4087-4e00" hidden="false" type="profile" targetId="5947-6cdc-e7b6-471b"/>
+                        <infoLink name="Relic tesla carbine" id="d152-3777-8659-47cf" hidden="false" type="profile" targetId="22a1-6932-e483-42ef"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="6ee9-0505-f6ef-4c8d0" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="6ee9-0505-f6ef-4c8d1" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="HQ" hidden="false" id="b7a6-c390-8238-4f1d" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="e46a-6058-e4b6-4bfe" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="9c9f-f412-2fc0-4263" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Command squad" id="f780-20e7-0c36-4735" hidden="false" type="rule" targetId="3bb3-3db8-a1f6-9b22"/>
+                <infoLink name="Regeneration(1)" id="3e58-4e9b-db78-409e" hidden="false" type="rule" targetId="9356-1a33-72c0-fa1b"/>
+                <infoLink name="<Necron>" id="c16d-7fd8-efc0-475f" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
+                <infoLink name="Royal Court" id="03bc-bd20-aafc-46d2" hidden="false" type="rule" targetId="48dc-7d4a-870e-4b13"/>
+                <infoLink name="Relentless March" id="8954-2820-7865-4534" hidden="false" type="rule" targetId="49c6-610c-dd90-4dfc"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Skorpekh Lord Squad" hidden="false" id="48c7-b625-e3e0-4917">
+        <selectionEntry type="unit" import="true" name="Skorpekh Lord" hidden="false" id="48c7-b625-e3e0-4917">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Skorpekh Lord" hidden="false" id="4b01-4c51-766d-47334" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Skorpekh Lord" hidden="false" id="9034-3bde-fd17-42674" defaultAmount=1>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="4908-4cdd-5466-417b" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="d8e0-f1dc-59f9-45e2" includeChildSelections="false"/>
+                        <constraint type="max" value=1 field="selections" scope="parent" shared="true" id="6ea8-0919-cdbf-4bab" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="9723-ee2c-d387-41e9" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="243"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="3aaa-76d3-bc8c-419e" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="2408-0430-b80c-4db8" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Enmitic annihilator" id="c1e0-6bbc-edbb-49f6" hidden="false" type="profile" targetId="9a6c-b36f-78d9-461f"/>
+                        <infoLink name="Hyperphase harvester" id="838a-b56b-d00c-40f8" hidden="false" type="profile" targetId="c40e-4ca9-6f9b-4fd9"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="fd72-7135-8dd3-45400" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="fd72-7135-8dd3-45401" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="HQ" hidden="false" id="26c9-e12b-1dc1-494f" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="77bd-c07b-39ea-4e05" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="474d-cd8d-5992-43c0" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Favoured enemy(everything)" id="1c3d-56a5-c12a-4ac9" hidden="false" type="rule" targetId="b911-91ea-4118-b7ac"/>
+                <infoLink name="Move through cover" id="780d-cab2-262d-43ef" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
+                <infoLink name="Regeneration(1)" id="ea75-febd-507d-436d" hidden="false" type="rule" targetId="9356-1a33-72c0-fa1b"/>
+                <infoLink name="<Necron>" id="de84-b934-b3d4-4ce5" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
+                <infoLink name="Royal Necrodermis" id="e924-f0f2-2371-4d42" hidden="false" type="rule" targetId="8453-b21a-c75b-426f"/>
+                <infoLink name="Necrodermis" id="1a66-e645-7153-436d" hidden="false" type="rule" targetId="9009-1d43-df6a-4a3f"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Flayed Ones Squad" hidden="false" id="3692-6a28-8b06-4e8c">
+        <selectionEntry type="unit" import="true" name="Flayed Ones" hidden="false" id="3692-6a28-8b06-4e8c">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Flayed Ones" hidden="false" id="9d83-fae3-c4f4-42aa4" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Flayed Ones" hidden="false" id="cb82-2bbf-4781-4b234" defaultAmount=5>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="38fd-0680-75b7-455b" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="83a8-c3a3-9298-496e" includeChildSelections="false"/>
+                        <constraint type="max" value=20 field="selections" scope="parent" shared="true" id="0216-1c24-543a-4c9b" includeChildSelections="true"/>
+                        <constraint type="min" value=5 field="selections" scope="parent" shared="true" id="1585-75e6-7efa-4045" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="21"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="ecbc-32d1-3392-48f4" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="1fbd-86d8-2462-4087" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Flayer claws" id="e166-6d46-d759-4537" hidden="false" type="profile" targetId="9006-e5af-a863-4db5"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="49b1-723c-a102-49e20" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="49b1-723c-a102-49e21" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Troops" hidden="false" id="6861-1fd7-4064-4723" targetId="2a68-9526-9cb0-16c3" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="3f14-304e-fe6c-4c9b" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="60ba-8203-a7b0-495b" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Deep strike" id="1903-3b4e-db80-4847" hidden="false" type="rule" targetId="ea49-8f6d-64fe-e520"/>
+                <infoLink name="Infiltrator" id="55f9-4538-343c-43be" hidden="false" type="rule" targetId="276b-ef81-2a62-da70"/>
+                <infoLink name="Reanimation Protocols" id="d036-bae2-706b-4388" hidden="false" type="rule" targetId="eff9-4f87-8063-4ea0"/>
+                <infoLink name="Terrifying(-1)" id="1b0e-6e2f-d278-4418" hidden="false" type="rule" targetId="5177-f795-b9a1-2785"/>
+                <infoLink name="<Necron>" id="c5a0-55d0-5f17-4bd7" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Immortals Squad" hidden="false" id="b8b7-549a-dd78-4dcc">
+        <selectionEntry type="unit" import="true" name="Immortals" hidden="false" id="b8b7-549a-dd78-4dcc">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Immortals" hidden="false" id="1b25-1288-59ec-420d4" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Immortals" hidden="false" id="42d3-fd27-19a2-4dd74" defaultAmount=5>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="f51f-f55f-176a-4bc1" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="a241-613f-71a2-449c" includeChildSelections="false"/>
+                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="5b71-8895-93ba-4c64" includeChildSelections="true"/>
+                        <constraint type="min" value=5 field="selections" scope="parent" shared="true" id="4ad9-8eb4-a986-431b" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="43"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="efa7-f8a2-8d9f-484c" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="6216-dc9f-9fb7-4fb2" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Disruptor field" id="1b83-2876-87aa-4d8c" hidden="false" type="profile" targetId="dc47-a512-03d7-4ba9"/>
+                        <infoLink name="Gauss blaster" id="f2cb-9096-5584-4efb" hidden="false" type="profile" targetId="a15a-bca6-5c60-4518"/>
+                        <infoLink name="Tesla carbine" id="c2aa-5aae-a906-4c67" hidden="false" type="profile" targetId="e4cd-5a45-3761-436c"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="e1e7-276b-7082-49e80" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="e1e7-276b-7082-49e81" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Troops" hidden="false" id="a3c3-21d4-d26d-487a" targetId="2a68-9526-9cb0-16c3" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="7362-fe84-0d1e-4ba1" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="09e6-286c-fbe3-469a" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Reanimation Protocols" id="b65f-5f09-cb4c-4195" hidden="false" type="rule" targetId="eff9-4f87-8063-4ea0"/>
+                <infoLink name="<Necron>" id="8429-b7b2-855e-4a62" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Warriors Squad" hidden="false" id="4b64-e63e-a368-4ee5">
+        <selectionEntry type="unit" import="true" name="Warriors" hidden="false" id="4b64-e63e-a368-4ee5">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Warriors" hidden="false" id="b6f0-3672-2530-44644" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Warriors" hidden="false" id="19d8-3e51-0f70-43874" defaultAmount=10>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="4bbf-35be-39e1-4792" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="800b-6eff-24ed-484a" includeChildSelections="false"/>
+                        <constraint type="max" value=20 field="selections" scope="parent" shared="true" id="257c-98b5-f784-4a9a" includeChildSelections="true"/>
+                        <constraint type="min" value=10 field="selections" scope="parent" shared="true" id="ffaf-ba13-5961-416d" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="19"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="e3c0-ec9a-344c-413b" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="3384-f508-27ca-4372" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Disruptor field" id="3088-d701-3ab3-4660" hidden="false" type="profile" targetId="dc47-a512-03d7-4ba9"/>
+                        <infoLink name="Gauss flayer" id="4a1f-be33-cde9-4bf1" hidden="false" type="profile" targetId="bb34-4951-f553-40a5"/>
+                        <infoLink name="Gauss reaper" id="7cba-2c22-698a-4dc4" hidden="false" type="profile" targetId="4466-4431-5e26-49ef"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="7806-8ce8-58d5-42430" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="7806-8ce8-58d5-42431" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Troops" hidden="false" id="eab9-4320-a9fe-4796" targetId="2a68-9526-9cb0-16c3" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="2d20-b267-75e4-4f8c" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="5fb5-1c25-194c-4f6a" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Reanimation Protocols" id="68bf-24c6-1b26-4eb0" hidden="false" type="rule" targetId="eff9-4f87-8063-4ea0"/>
+                <infoLink name="<Necron>" id="c063-5482-e6fd-4077" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Ctan Shard Squad" hidden="false" id="de9c-d1cc-9a03-42cf">
+        <selectionEntry type="unit" import="true" name="C'tan Shard" hidden="false" id="4739-2c02-280e-46e0">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Ctan Shard" hidden="false" id="f8dc-2d23-ca08-460e4" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="C'tan Shard" hidden="false" id="4102-0628-29de-48894" defaultAmount=1>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="a3dd-8f2f-21c0-492e" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="c7cf-e18c-a39e-417c" includeChildSelections="false"/>
+                        <constraint type="max" value=1 field="selections" scope="parent" shared="true" id="5994-87e0-27ed-46b6" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="9b96-ca9e-aee5-48d4" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="257"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="0d0c-68ba-80fb-437f" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="33c8-ddfe-07c6-4c66" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="C'tan close combat weapon" id="a26d-feea-5caf-4d50" hidden="false" type="profile" targetId="e418-b6e2-dd79-4367"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="0ba3-f18a-b7f8-45640" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="0ba3-f18a-b7f8-45641" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="a2f8-9689-cce8-40e7" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="bb08-9077-8faf-491e" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="a9f9-c47b-f653-4852" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Anti-Grav" id="57b4-1cd4-fb34-4672" hidden="false" type="rule" targetId="1694-8bbc-0a3e-a52d"/>
+                <infoLink name="Fearless" id="14da-cfcd-7748-4b16" hidden="false" type="rule" targetId="a80b-2144-465a-1568"/>
+                <infoLink name="Regeneration(1)" id="3172-e29f-d01b-4fbb" hidden="false" type="rule" targetId="9356-1a33-72c0-fa1b"/>
+                <infoLink name="Terrifying(-1)" id="be79-7d7f-79b6-4985" hidden="false" type="rule" targetId="5177-f795-b9a1-2785"/>
+                <infoLink name="Necrodermis" id="3a27-699f-9fa4-4b06" hidden="false" type="rule" targetId="9009-1d43-df6a-4a3f"/>
+                <infoLink name="Powers of the C'tan" id="fdd8-a42b-4267-41c3" hidden="false" type="rule" targetId="d1db-cfa3-3044-471d"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Ctan Shard of the Dragon Squad" hidden="false" id="ee3b-81d3-e92f-42fc">
+        <selectionEntry type="unit" import="true" name="C'tan Shard of the Dragon" hidden="false" id="bc9a-b8bb-10f1-401e">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Ctan Shard of the Dragon" hidden="false" id="acf5-935a-8b01-43d64" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="C'tan Shard of the Dragon" hidden="false" id="b5ea-0664-e9e0-45054" defaultAmount=1>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="cc07-c36a-15cc-4150" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="3825-3ac8-2b19-4f27" includeChildSelections="false"/>
+                        <constraint type="max" value=1 field="selections" scope="parent" shared="true" id="4229-70a2-3f54-4942" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="d57a-48e1-c179-4e0e" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="300"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="d3a1-f344-88fe-41c3" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="3eca-4a5c-6193-4c02" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Spear of the Dragon *" id="dd60-7035-f277-450e" hidden="false" type="profile" targetId="12d7-7696-7862-421a"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="da3b-8357-07d4-42dd0" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="da3b-8357-07d4-42dd1" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="66b3-e6e2-dbe4-44bd" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="adde-0dfa-2b55-47f6" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="fe2f-7026-3e5a-4d21" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Anti-Grav" id="5fe9-a655-e9b8-4837" hidden="false" type="rule" targetId="1694-8bbc-0a3e-a52d"/>
+                <infoLink name="Fearless" id="81ee-228c-5e60-4e48" hidden="false" type="rule" targetId="a80b-2144-465a-1568"/>
+                <infoLink name="Regeneration(1)" id="c1b0-883e-8efd-4fbc" hidden="false" type="rule" targetId="9356-1a33-72c0-fa1b"/>
+                <infoLink name="Terrifying(-1)" id="0db0-5536-d129-44d3" hidden="false" type="rule" targetId="5177-f795-b9a1-2785"/>
+                <infoLink name="Necrodermis" id="fd32-7548-b912-4ea1" hidden="false" type="rule" targetId="9009-1d43-df6a-4a3f"/>
+                <infoLink name="Powers of the C'tan" id="da71-fb84-def2-4e3f" hidden="false" type="rule" targetId="d1db-cfa3-3044-471d"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Ctan Shard of the Deceiver Squad" hidden="false" id="fb6d-9d11-5851-4012">
+        <selectionEntry type="unit" import="true" name="C'tan Shard of the Deceiver" hidden="false" id="804c-a39a-d328-4356">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Ctan Shard of the Deceiver" hidden="false" id="0a78-6d39-e08b-475f4" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="C'tan Shard of the Deceiver" hidden="false" id="53bf-76b1-610a-4fc54" defaultAmount=1>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="e74a-ec88-0a42-46eb" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="727b-8e77-9da5-4437" includeChildSelections="false"/>
+                        <constraint type="max" value=1 field="selections" scope="parent" shared="true" id="aa6e-da34-7682-4184" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="35b4-1ca9-87e6-42c6" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="280"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="3112-1569-2c14-4dfb" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="9cd4-25ca-d8be-430b" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Golden Fists" id="5b09-0bb7-3a30-4a0e" hidden="false" type="profile" targetId="1e91-29d5-87f9-4fb2"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="c34b-9662-e1f2-492b0" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="c34b-9662-e1f2-492b1" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="ad8e-a10d-9720-46fa" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="817b-4a30-3c42-4e7c" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="1cae-8def-27bc-45cc" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Anti-Grav" id="903a-83ca-0c0a-4e8e" hidden="false" type="rule" targetId="1694-8bbc-0a3e-a52d"/>
+                <infoLink name="Deflect" id="a632-e1a1-18f4-4f9b" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
+                <infoLink name="Fearless" id="15cd-dbea-3a76-46bb" hidden="false" type="rule" targetId="a80b-2144-465a-1568"/>
+                <infoLink name="Hit & Run" id="cf84-b6bf-a6ae-4a6e" hidden="false" type="rule" targetId="be0f-f876-ab17-478f"/>
+                <infoLink name="Parry" id="1d8c-ee8b-e4a2-406d" hidden="false" type="rule" targetId="fc6d-9ee5-f9c3-6035"/>
+                <infoLink name="Regeneration(1)" id="a5ad-a2ea-8ffc-40d2" hidden="false" type="rule" targetId="9356-1a33-72c0-fa1b"/>
+                <infoLink name="Terrifying(-1)" id="8efb-129c-ceee-40fd" hidden="false" type="rule" targetId="5177-f795-b9a1-2785"/>
+                <infoLink name="Necrodermis" id="df07-3337-2dc0-4dbb" hidden="false" type="rule" targetId="9009-1d43-df6a-4a3f"/>
+                <infoLink name="Powers of the C'tan" id="6ee4-98cc-7ca4-46f7" hidden="false" type="rule" targetId="d1db-cfa3-3044-471d"/>
+                <infoLink name="Great Illusion" id="8f54-4840-538e-4293" hidden="false" type="rule" targetId="7c10-b9b5-b9fc-4ae8"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Ctan Shard of the Nightbringer Squad" hidden="false" id="138b-8a5c-def5-48ef">
+        <selectionEntry type="unit" import="true" name="C'tan Shard of the Nightbringer" hidden="false" id="db76-847f-6f46-43a6">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Ctan Shard of the Nightbringer" hidden="false" id="b40d-b2e5-5d54-41164" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="C'tan Shard of the Nightbringer" hidden="false" id="2c1e-6201-d56f-431f4" defaultAmount=1>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="aee0-b8f9-4c3e-46ad" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="40ac-76f5-b1f5-4ee4" includeChildSelections="false"/>
+                        <constraint type="max" value=1 field="selections" scope="parent" shared="true" id="e236-6d0d-6568-41f6" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="6dbe-9d7e-7ca9-4e86" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="315"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="d100-9378-aefe-42b5" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="4baf-d22a-43a9-4c4b" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Arc lightning" id="b7cf-76bc-ad7e-4ea2" hidden="false" type="profile" targetId="2069-0ca4-9df5-46a8"/>
+                        <infoLink name="Scythe of the Nightbringer" id="53e2-bc50-39b7-4c43" hidden="false" type="profile" targetId="dc68-5edb-242f-44cc"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="f44e-2dd0-2d1c-45580" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="f44e-2dd0-2d1c-45581" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="b2e4-a7fc-d7b4-4f79" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="4940-8f54-6734-4d9a" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="626b-1766-0db7-4fbb" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Anti-Grav" id="4472-e4fa-56e9-4ee2" hidden="false" type="rule" targetId="1694-8bbc-0a3e-a52d"/>
+                <infoLink name="Fearless" id="5cc3-a80f-e948-4453" hidden="false" type="rule" targetId="a80b-2144-465a-1568"/>
+                <infoLink name="Regeneration(1)" id="fed8-00a9-e78f-4e91" hidden="false" type="rule" targetId="9356-1a33-72c0-fa1b"/>
+                <infoLink name="Terrifying(-1)" id="a34c-1889-9150-46ff" hidden="false" type="rule" targetId="5177-f795-b9a1-2785"/>
+                <infoLink name="Necrodermis" id="0ea4-f54e-5cdf-4cad" hidden="false" type="rule" targetId="9009-1d43-df6a-4a3f"/>
+                <infoLink name="Powers of the C'tan" id="5444-e86c-9a60-404f" hidden="false" type="rule" targetId="d1db-cfa3-3044-471d"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Canoptek Spyders Squad" hidden="false" id="6473-cd14-c520-46bf">
+        <selectionEntry type="unit" import="true" name="Canoptek Spyders" hidden="false" id="6473-cd14-c520-46bf">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Canoptek Spyders" hidden="false" id="b30c-ca07-114e-4c9a4" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Canoptek Spyders" hidden="false" id="492d-ce2a-2fa3-49e64" defaultAmount=1>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="02ae-6f04-723d-4eb3" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="2cb7-101a-3d46-47a3" includeChildSelections="false"/>
+                        <constraint type="max" value=2 field="selections" scope="parent" shared="true" id="d34e-b413-3f51-4335" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="1815-15ef-1dab-4fa1" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="79"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="cab1-1578-f465-4d66" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="bdeb-99aa-372c-4bde" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Automaton claws" id="a22f-5da6-bf29-4519" hidden="false" type="profile" targetId="ead9-57fc-1ee2-4fe3"/>
+                        <infoLink name="Particle beamer" id="b7a7-bc1b-9f31-45c5" hidden="false" type="profile" targetId="2870-9d58-a2d8-49b9"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="c476-64db-f3b0-4c2f0" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="c476-64db-f3b0-4c2f1" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="0845-527b-8d8d-41f4" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="6293-24c8-aa95-4013" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="ab49-e248-6097-4fa1" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Anti-Grav" id="d02d-1f32-4116-4beb" hidden="false" type="rule" targetId="1694-8bbc-0a3e-a52d"/>
+                <infoLink name="Squadron" id="fa3b-8ec0-205c-4e61" hidden="false" type="rule" targetId="bf82-191a-f79d-c43a"/>
+                <infoLink name="<Canoptek>" id="7a2d-4291-5b17-4220" hidden="false" type="rule" targetId="091c-6e3c-b0f2-489b"/>
+                <infoLink name="Dark prison" id="63e7-efbf-4f65-4529" hidden="false" type="rule" targetId="2f25-41ff-a3e5-40f4"/>
+                <infoLink name="Fabricator claw array" id="a88a-9ee8-8a60-4824" hidden="false" type="rule" targetId="7348-17b3-702b-4e65"/>
+                <infoLink name="Scarab hive" id="c60d-8dd4-a346-421d" hidden="false" type="rule" targetId="67d1-b04f-d4b1-458d"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Cryptothralls Squad" hidden="false" id="d23a-ccf7-245c-4a0f">
+        <selectionEntry type="unit" import="true" name="Cryptothralls" hidden="false" id="d23a-ccf7-245c-4a0f">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Cryptothralls" hidden="false" id="e64a-a045-e4de-41874" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Cryptothralls" hidden="false" id="2d81-e72b-bda5-40834" defaultAmount=2>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="5e36-4015-f158-4bbb" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="25b7-9ab9-62f7-4748" includeChildSelections="false"/>
+                        <constraint type="max" value=2 field="selections" scope="parent" shared="true" id="98f7-afe8-014e-45e0" includeChildSelections="true"/>
+                        <constraint type="min" value=2 field="selections" scope="parent" shared="true" id="e71f-4e22-130d-4d15" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="45"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="7538-e1aa-b227-45b7" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="5abd-2590-74b8-474d" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Scouring eye" id="de2a-853f-0bf2-4abd" hidden="false" type="profile" targetId="4a23-e742-2ac2-48cc"/>
+                        <infoLink name="Scythed limbs" id="01b7-8905-f1f9-44d7" hidden="false" type="profile" targetId="bb2e-d477-c383-40c3"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="f522-bfc9-6a15-4fdb0" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="f522-bfc9-6a15-4fdb1" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="e28c-c59e-0da9-4c9e" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="aa5f-c28b-29e8-4383" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="6bb1-ebba-8dea-4df5" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Bodyguard" id="ab2e-2f2e-778f-42e8" hidden="false" type="rule" targetId="5ee7-cc81-00e4-f281"/>
+                <infoLink name="Regeneration(1)" id="6925-433b-85c0-4546" hidden="false" type="rule" targetId="9356-1a33-72c0-fa1b"/>
+                <infoLink name="Servant" id="9883-61ac-1434-4558" hidden="false" type="rule" targetId="768f-279d-c12e-4c0b"/>
+                <infoLink name="Systematic Vigour" id="e669-b17e-eaef-4f4d" hidden="false" type="rule" targetId="5d9d-ee76-52cf-4c54"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Deathmarks Squad" hidden="false" id="cd3c-6cd4-b6ea-4ae0">
+        <selectionEntry type="unit" import="true" name="Deathmarks" hidden="false" id="cd3c-6cd4-b6ea-4ae0">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Deathmarks" hidden="false" id="6c81-5e26-1b51-405d4" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Deathmarks" hidden="false" id="e2d1-81cc-8c32-4a484" defaultAmount=5>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="db09-84f6-b140-44da" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="64c0-838a-1256-4752" includeChildSelections="false"/>
+                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="c6d6-1a96-4d7e-4b28" includeChildSelections="true"/>
+                        <constraint type="min" value=5 field="selections" scope="parent" shared="true" id="a585-3fd1-578b-4a69" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="65"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="eda7-93a9-2805-437b" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="16d2-37c5-9631-4d4c" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Synaptic disintegrator" id="52c8-3c40-7e3a-4f4f" hidden="false" type="profile" targetId="c129-cc01-fed1-4223"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="5d2d-fa13-941b-41650" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="5d2d-fa13-941b-41651" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="0699-69e5-b6d5-4cd0" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="e2a5-4ff5-2fbb-401d" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="4544-371d-ad82-416b" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Deep strike" id="fbea-3f10-b531-4be8" hidden="false" type="rule" targetId="ea49-8f6d-64fe-e520"/>
+                <infoLink name="Reanimation Protocols" id="bcbb-010c-af2a-4133" hidden="false" type="rule" targetId="eff9-4f87-8063-4ea0"/>
+                <infoLink name="<Necron>" id="f82c-96fe-993e-4878" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
+                <infoLink name="Aetheric Interception" id="2e2a-55ff-656d-48ba" hidden="false" type="rule" targetId="7667-ce4c-d5a0-4eea"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Hexmark Destroyer Squad" hidden="false" id="af89-7155-9992-419f">
+        <selectionEntry type="unit" import="true" name="Hexmark Destroyer" hidden="false" id="af89-7155-9992-419f">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Hexmark Destroyer" hidden="false" id="6026-4949-0819-49fd4" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Hexmark Destroyer" hidden="false" id="060d-5600-53c2-4d784" defaultAmount=1>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="7535-c5a1-0db6-4067" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="aee3-cd29-f2f2-4a3b" includeChildSelections="false"/>
+                        <constraint type="max" value=1 field="selections" scope="parent" shared="true" id="5bc0-9c03-cd5c-40a0" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="c3c4-9f51-cb21-40b7" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="92"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="4a84-8d41-4cf3-4b9e" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="d107-6dd8-d44d-43cb" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Enmitic disintegrator pistol" id="6545-7682-658f-4308" hidden="false" type="profile" targetId="8275-bd13-16dc-4e37"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="1d42-442f-b21c-48f50" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="1d42-442f-b21c-48f51" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="1745-e8b1-fa49-4971" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="c93b-b366-84d3-4c00" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="dbbc-9153-a305-4627" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Command squad" id="39be-9ef7-07cd-4d9f" hidden="false" type="rule" targetId="3bb3-3db8-a1f6-9b22"/>
+                <infoLink name="Deep strike" id="7a94-5460-35da-4525" hidden="false" type="rule" targetId="ea49-8f6d-64fe-e520"/>
+                <infoLink name="Regeneration(1)" id="fde6-b24c-5b42-4de5" hidden="false" type="rule" targetId="9356-1a33-72c0-fa1b"/>
+                <infoLink name="<Necron>" id="1049-41d6-0f29-4758" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
+                <infoLink name="Royal Assassin" id="0100-8e37-10de-4e14" hidden="false" type="rule" targetId="e9a8-84bb-3fac-4d50"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Lychguard Squad" hidden="false" id="4855-f423-8400-4b93">
+        <selectionEntry type="unit" import="true" name="Lychguard" hidden="false" id="4855-f423-8400-4b93">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Lychguard" hidden="false" id="5eba-e7e0-0fda-482c4" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Lychguard" hidden="false" id="0fb5-77da-57b6-48244" defaultAmount=1>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="2e46-9ca7-a8f4-430f" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="3137-d831-7551-4947" includeChildSelections="false"/>
+                        <constraint type="max" value=4 field="selections" scope="parent" shared="true" id="e0c3-de5f-54d4-457f" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="c6ae-bcd9-5a04-4b68" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="67"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="4e55-fba3-b49e-4305" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="528f-f082-8c73-4276" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Hyperphase sword" id="32d5-a4fd-5c69-489d" hidden="false" type="profile" targetId="deab-e167-e91f-4ae4"/>
+                        <infoLink name="War scythe" id="caab-d743-642c-47e6" hidden="false" type="profile" targetId="48f6-4b8a-b638-40a1"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="dc1d-25d1-6233-456f0" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="dc1d-25d1-6233-456f1" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="d73e-9e7a-c390-4e70" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="8229-2a69-df8f-4a81" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="6d49-deb9-0ac6-4f28" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Bodyguard" id="8188-70d5-a58e-45e9" hidden="false" type="rule" targetId="5ee7-cc81-00e4-f281"/>
+                <infoLink name="Command squad" id="bea2-c67c-3c31-4ace" hidden="false" type="rule" targetId="3bb3-3db8-a1f6-9b22"/>
+                <infoLink name="Reanimation Protocols" id="1171-3c6b-fe7f-4817" hidden="false" type="rule" targetId="eff9-4f87-8063-4ea0"/>
+                <infoLink name="<Necron>" id="e70d-cb2a-1984-447f" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
+                <infoLink name="Dispersion shield" id="7058-34ea-2e0d-4ca4" hidden="false" type="rule" targetId="3eac-8a13-9697-45a0"/>
+                <infoLink name="Varguard" id="a1f2-67cf-6095-47bf" hidden="false" type="rule" targetId="c033-0a3b-1629-4b4e"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Pariahs Squad" hidden="false" id="b25c-3dfc-b8f1-4d1e">
+        <selectionEntry type="unit" import="true" name="Pariahs" hidden="false" id="b25c-3dfc-b8f1-4d1e">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Pariahs" hidden="false" id="fd8b-9946-f647-40504" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Pariahs" hidden="false" id="2e42-cad8-804d-496e4" defaultAmount=4>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="b94a-5e4d-dc7c-4e93" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="d78f-5c90-f17d-42d5" includeChildSelections="false"/>
+                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="5187-6098-9688-4200" includeChildSelections="true"/>
+                        <constraint type="min" value=4 field="selections" scope="parent" shared="true" id="121c-6018-7f77-4073" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="56"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="8a09-725b-f399-488e" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="c8c9-1745-294c-4c04" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Gauss caster" id="4d51-a36e-e34a-4d61" hidden="false" type="profile" targetId="9869-83a3-0832-4051"/>
+                        <infoLink name="Void scythe" id="6120-9c75-3e3c-47f1" hidden="false" type="profile" targetId="8e22-c553-02a3-4424"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="afb3-6b6f-b9e2-44d80" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="afb3-6b6f-b9e2-44d81" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="fd44-a906-9736-4839" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="99f1-c41a-8808-4705" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="f567-46dc-3a80-4901" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Deflect" id="fba6-142b-bedb-4d5d" hidden="false" type="rule" targetId="4105-b7ba-7941-231e"/>
+                <infoLink name="Parry" id="34bc-e4e2-1fb2-42f8" hidden="false" type="rule" targetId="fc6d-9ee5-f9c3-6035"/>
+                <infoLink name="Psionic Abomination" id="5650-02ae-c221-4942" hidden="false" type="rule" targetId="4457-d60d-1273-4ad3"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Plasmacyte Squad" hidden="false" id="4663-e1a6-3804-41c6">
+        <selectionEntry type="unit" import="true" name="Plasmacyte" hidden="false" id="4663-e1a6-3804-41c6">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Plasmacyte" hidden="false" id="b28e-9637-0f38-4a484" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Plasmacyte" hidden="false" id="391b-79ab-4282-49574" defaultAmount=->
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="fb36-01e7-25ac-4093" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="20c8-efc8-5861-4b14" includeChildSelections="false"/>
+                        <constraint type="max" value=- field="selections" scope="parent" shared="true" id="da7a-3faa-4743-4548" includeChildSelections="true"/>
+                        <constraint type="min" value=- field="selections" scope="parent" shared="true" id="ca83-8830-0595-47ea" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="15"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="6b1e-6462-de58-4eeb" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="574f-052d-3e30-4f11" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="-" id="62ba-893c-9c7c-4bae" hidden="false" type="profile" targetId="387a-0ddd-7e11-48a9"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="f9f5-b4d6-7ada-4a490" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="f9f5-b4d6-7ada-4a491" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="1e65-d74d-8b79-4273" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="2026-a0cb-43a1-405b" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="502e-8844-c2eb-4d6c" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Command squad" id="139a-6b67-1571-42dc" hidden="false" type="rule" targetId="3bb3-3db8-a1f6-9b22"/>
+                <infoLink name="Servant" id="b168-e0bd-5622-42e8" hidden="false" type="rule" targetId="768f-279d-c12e-4c0b"/>
+                <infoLink name="Infused Madness" id="7df4-0dc3-3a58-49bb" hidden="false" type="rule" targetId="3768-9b96-36f8-4555"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Skorpekh Destroyers Squad" hidden="false" id="e0ab-b3a8-50f8-487d">
+        <selectionEntry type="unit" import="true" name="Skorpekh Destroyers" hidden="false" id="e0ab-b3a8-50f8-487d">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Skorpekh Destroyers" hidden="false" id="f572-68db-a059-490f4" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Skorpekh Destroyers" hidden="false" id="75bd-fcb4-1239-4f634" defaultAmount=3>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="d1f7-5bf9-d466-4eef" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="bcda-aac4-76a2-489d" includeChildSelections="false"/>
+                        <constraint type="max" value=6 field="selections" scope="parent" shared="true" id="fdaf-47c7-9107-4a2e" includeChildSelections="true"/>
+                        <constraint type="min" value=3 field="selections" scope="parent" shared="true" id="7e08-460c-cfd4-4052" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="48"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="d1fb-761e-aae9-4927" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="2cf7-aa57-3a58-446f" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Hyperphase reap-blade" id="9e77-4e55-9b99-47af" hidden="false" type="profile" targetId="5e87-5fb6-0f01-4f3c"/>
+                        <infoLink name="Hyperphase threshers" id="0b8c-8d68-9176-4551" hidden="false" type="profile" targetId="c4ff-434c-677e-4fbb"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="825d-df00-529b-4b820" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="825d-df00-529b-4b821" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Elite" hidden="false" id="e4e1-dde6-bb63-461f" targetId="e998-b6e1-9f43-6739" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="1137-64bc-c34f-40a1" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="adc3-7563-79a5-4004" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Massive(1)" id="03d0-aa0e-2d17-4aff" hidden="false" type="rule" targetId="621d-3453-ec3c-c2f8"/>
+                <infoLink name="Move through cover" id="d6da-c01f-2b8a-4aac" hidden="false" type="rule" targetId="3b94-b5d5-ebe7-cb17"/>
+                <infoLink name="Reanimation Protocols" id="78d6-4f6c-b730-4589" hidden="false" type="rule" targetId="eff9-4f87-8063-4ea0"/>
+                <infoLink name="<Necron>" id="cd41-cfb3-9966-465b" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Canoptek Scarabs Squad" hidden="false" id="9009-6b5e-8ebf-4d19">
+        <selectionEntry type="unit" import="true" name="Canoptek Scarabs" hidden="false" id="9009-6b5e-8ebf-4d19">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Canoptek Scarabs" hidden="false" id="69a1-d67e-99e9-43f84" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Canoptek Scarabs" hidden="false" id="c214-1bcc-d662-4b584" defaultAmount=3>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="688e-d916-3d54-4f03" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="ab0f-e49d-e3fa-43fb" includeChildSelections="false"/>
+                        <constraint type="max" value=6 field="selections" scope="parent" shared="true" id="5200-1c14-a107-46a2" includeChildSelections="true"/>
+                        <constraint type="min" value=3 field="selections" scope="parent" shared="true" id="4883-7a92-31a0-4b0a" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="17"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="32de-37f8-2247-44d8" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="d31b-9873-57cd-416b" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Feeder mandibles" id="faf6-0cdb-5088-4ba6" hidden="false" type="profile" targetId="d2ba-cef0-fa50-43e0"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="fc97-1c79-3035-45430" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="fc97-1c79-3035-45431" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Fast Attack" hidden="false" id="26c1-963a-0e83-4097" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="204a-35b9-5800-4df3" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="ea15-78b2-bbf7-4a7b" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Fearless" id="de55-676b-847d-4ec1" hidden="false" type="rule" targetId="a80b-2144-465a-1568"/>
+                <infoLink name="Use cover" id="c58a-c4f2-8528-4a0c" hidden="false" type="rule" targetId="7a04-95b4-d929-fe4e"/>
+                <infoLink name="<Canoptek>" id="382b-bbe4-1622-4571" hidden="false" type="rule" targetId="091c-6e3c-b0f2-489b"/>
+                <infoLink name="Bloodswarm Scarabs" id="c020-7a9c-1d7e-4a95" hidden="false" type="rule" targetId="469a-96a2-8a0a-4ba9"/>
+                <infoLink name="Explosion" id="7255-7907-d4ad-40c7" hidden="false" type="rule" targetId="2821-4177-1e63-40aa"/>
+                <infoLink name="Flensing Scarabs" id="0f71-709a-f9d6-4c1c" hidden="false" type="rule" targetId="acf2-35f6-e375-41b7"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Canoptek Wraiths Squad" hidden="false" id="f8fe-a5c5-ce4a-4747">
+        <selectionEntry type="unit" import="true" name="Canoptek Wraiths" hidden="false" id="f8fe-a5c5-ce4a-4747">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Canoptek Wraiths" hidden="false" id="0e4e-9d34-bdbd-4a7d4" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Canoptek Wraiths" hidden="false" id="2c8b-10f3-1ece-42724" defaultAmount=3>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="6ddc-4b81-f337-4d5a" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="537e-51f2-ee1a-4c12" includeChildSelections="false"/>
+                        <constraint type="max" value=6 field="selections" scope="parent" shared="true" id="87ce-1f17-f20a-4f14" includeChildSelections="true"/>
+                        <constraint type="min" value=3 field="selections" scope="parent" shared="true" id="a999-d4b9-dbeb-4904" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="67"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="172a-8bea-fce9-4c68" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="8485-6822-2dd9-4b40" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Particle caster" id="f940-abe0-b784-476a" hidden="false" type="profile" targetId="7345-cbb4-7a3a-4720"/>
+                        <infoLink name="Transdimensional beamer" id="b239-7013-37c6-441d" hidden="false" type="profile" targetId="0772-f0f2-a2dc-49d7"/>
+                        <infoLink name="Vicious claws" id="7a9c-e4ad-31ef-450e" hidden="false" type="profile" targetId="c519-397c-7a77-47f3"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="4aa3-8b20-7b34-4b3e0" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="4aa3-8b20-7b34-4b3e1" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Fast Attack" hidden="false" id="4bbb-4ee0-13ba-43dd" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="16f1-472a-3aec-48e2" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="cfbd-1793-d73b-4678" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="<Canoptek>" id="a652-d16f-32eb-4376" hidden="false" type="rule" targetId="091c-6e3c-b0f2-489b"/>
+                <infoLink name="Whip coils" id="fdfe-02f2-24e9-4b44" hidden="false" type="rule" targetId="a82d-48ea-b566-4921"/>
+                <infoLink name="Wraith form" id="c1e5-0363-7c66-4708" hidden="false" type="rule" targetId="4fb0-9614-4bc5-4570"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Ophydian Destroyers Squad" hidden="false" id="4d84-66df-da7a-40d2">
+        <selectionEntry type="unit" import="true" name="Ophydian Destroyers" hidden="false" id="4d84-66df-da7a-40d2">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Ophydian Destroyers" hidden="false" id="a5ae-c402-32ce-49494" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Ophydian Destroyers" hidden="false" id="b6db-ba33-96fd-4e1b4" defaultAmount=3>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="db11-68c0-b948-4dfa" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="f536-67f6-83d4-4de0" includeChildSelections="false"/>
+                        <constraint type="max" value=6 field="selections" scope="parent" shared="true" id="1b1d-e0e3-5ca5-4a3e" includeChildSelections="true"/>
+                        <constraint type="min" value=3 field="selections" scope="parent" shared="true" id="d0b5-2cf2-e211-4b8c" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="48"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="d0c0-9bf9-6dfe-4fbc" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="53b5-2d7e-747b-424e" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Hyperphase reap-blade" id="4983-3d13-75d7-4967" hidden="false" type="profile" targetId="5e87-5fb6-0f01-4f3c"/>
+                        <infoLink name="Hyperphase threshers" id="7cde-32df-a097-46de" hidden="false" type="profile" targetId="c4ff-434c-677e-4fbb"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="d68f-31ab-aa6f-410f0" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="d68f-31ab-aa6f-410f1" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Fast Attack" hidden="false" id="b6bc-7221-9952-4f82" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="66a2-c95a-d335-4c6f" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="5b9f-1541-c589-4042" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Infiltrator" id="8087-1142-41dc-4ead" hidden="false" type="rule" targetId="276b-ef81-2a62-da70"/>
+                <infoLink name="Massive(1)" id="6239-977a-c227-456f" hidden="false" type="rule" targetId="621d-3453-ec3c-c2f8"/>
+                <infoLink name="Reanimation Protocols" id="283f-773d-29e1-40ee" hidden="false" type="rule" targetId="eff9-4f87-8063-4ea0"/>
+                <infoLink name="<Necron>" id="f1d2-d91c-bde6-4a5d" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
+                <infoLink name="Tunneling Horrors" id="a89d-99b0-01ee-4f38" hidden="false" type="rule" targetId="df99-945a-fe5a-4a2e"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Tomb Blades Squad" hidden="false" id="4796-00de-f46c-4c20">
+        <selectionEntry type="unit" import="true" name="Tomb Blades" hidden="false" id="4796-00de-f46c-4c20">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Tomb Blades" hidden="false" id="f344-6752-cb92-4ded4" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Tomb Blades" hidden="false" id="ff21-c560-7199-48b64" defaultAmount=3>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="ed2b-cfbf-f059-4ace" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="59dd-0b8c-bbb5-49df" includeChildSelections="false"/>
+                        <constraint type="max" value=9 field="selections" scope="parent" shared="true" id="90e7-c824-be29-43ac" includeChildSelections="true"/>
+                        <constraint type="min" value=3 field="selections" scope="parent" shared="true" id="141d-3940-0bf3-40a6" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="47"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="8d94-23e2-0cf0-477b" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="099c-4e1c-bfcc-46a7" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Particle beamer" id="eeea-23e2-fcdb-4bf7" hidden="false" type="profile" targetId="2870-9d58-a2d8-49b9"/>
+                        <infoLink name="Twin gauss blaster" id="37db-f4e0-87cb-40ec" hidden="false" type="profile" targetId="608f-0827-a7f1-4de2"/>
+                        <infoLink name="Twin tesla carbine" id="1a5c-ed15-53db-4353" hidden="false" type="profile" targetId="a686-72dc-524c-4bfe"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="aecd-83c3-c4d2-467e0" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="aecd-83c3-c4d2-467e1" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Fast Attack" hidden="false" id="b652-2b71-65be-41eb" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="e36c-735a-aa74-45bb" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="109d-39db-3c7a-48e3" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Massive(2)" id="9553-a8ad-28d6-471e" hidden="false" type="rule" targetId="4a83-941f-2517-de47"/>
+                <infoLink name="Reanimation Protocols" id="a786-f316-a110-4c35" hidden="false" type="rule" targetId="eff9-4f87-8063-4ea0"/>
+                <infoLink name="<Necron>" id="6843-40e3-c589-4e60" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
+                <infoLink name="Nebuloscope" id="bccd-17ba-ba7b-4432" hidden="false" type="rule" targetId="a7fc-a85c-e4f4-4c7b"/>
+                <infoLink name="Shadowloom and shieldvanes" id="7952-a217-5bdc-4a80" hidden="false" type="rule" targetId="a234-a9ab-198a-4609"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Triarch Praetorians Squad" hidden="false" id="1120-b94f-f378-4d57">
+        <selectionEntry type="unit" import="true" name="Triarch Praetorians" hidden="false" id="1120-b94f-f378-4d57">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Triarch Praetorians" hidden="false" id="5635-4970-9e9e-4e034" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Triarch Praetorians" hidden="false" id="c43f-492d-33bc-4a124" defaultAmount=5>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="beaf-9b9d-db34-47cf" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="a6d4-8ce1-88c4-4cb9" includeChildSelections="false"/>
+                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="b553-0d62-3e0b-4376" includeChildSelections="true"/>
+                        <constraint type="min" value=5 field="selections" scope="parent" shared="true" id="3ba3-afee-0330-40a9" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="59"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="333f-1a9e-f85e-46a0" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="36d3-fd76-4e15-47f0" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Particle caster" id="dd3b-4e97-a22b-49c5" hidden="false" type="profile" targetId="7345-cbb4-7a3a-4720"/>
+                        <infoLink name="Rod of covenant" id="be77-7c94-5146-4020" hidden="false" type="profile" targetId="448a-d186-74d3-430f"/>
+                        <infoLink name="Voidblade" id="341a-cbe6-95a9-4314" hidden="false" type="profile" targetId="2e63-2070-d202-4265"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="a95e-31bc-247c-42da0" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="a95e-31bc-247c-42da1" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Fast Attack" hidden="false" id="3d49-47e6-dc97-4321" targetId="8ba0-ef12-9165-c50c" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="7d9b-6d93-eb9f-42d1" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="9a06-fd44-d8f5-4ea5" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Reanimation Protocols" id="5275-5c44-3ee6-4395" hidden="false" type="rule" targetId="eff9-4f87-8063-4ea0"/>
+                <infoLink name="<Necron>" id="2c7b-39b0-268e-4741" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
             </infoLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Lokhust Destroyers Squad" hidden="false" id="fc77-0622-4707-4e39">
+        <selectionEntry type="unit" import="true" name="Lokhust Destroyers" hidden="false" id="fc77-0622-4707-4e39">
             <selectionEntries>
-                <selectionEntry type="model" import="true" name="Lokhust Destroyers" hidden="false" id="37df-d98b-3b47-46da4" defaultAmount=4>
+                <selectionEntry type="model" import="true" name="Lokhust Destroyers" hidden="false" id="6c5f-836f-029c-43084" defaultAmount=1>
                     <constraints>
-                        <constraint type="max" value=10 field="selections" scope="parent" shared="true" id="8465-0514-bada-426c" includeChildSelections="true"/>
-                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="1d47-1b57-5517-4e76" includeChildSelections="false"/>
+                        <constraint type="max" value=3 field="selections" scope="parent" shared="true" id="3181-2d72-5fd0-4f47" includeChildSelections="true"/>
+                        <constraint type="min" value=1 field="selections" scope="parent" shared="true" id="6541-6ae8-8c24-46cf" includeChildSelections="false"/>
                     </constraints>
                     <costs>
                         <cost name="pts" typeId="40d8-7900-73a1-1378" value="108"/>
                     </costs>
                     <infoLinks>
-                        <infoLink name="Bolt Pistol" id="b399-cd4b-fd8c-4c8c" hidden="false" type="profile" targetId="9ede-9869-87d0-3256"/>
-                        <infoLink name="Krak Grenades" id="e97b-2160-1cfc-4b44" hidden="false" type="profile" targetId="18ef-02a4-50ea-f321"/>
+                        <infoLink name="Enmitic exterminator" id="7498-6fc7-8951-43a1" hidden="false" type="profile" targetId="f86f-9ad2-bb18-4678"/>
+                        <infoLink name="Gauss cannon" id="3ec0-12b2-b0ea-4cb4" hidden="false" type="profile" targetId="44fb-cdc9-3b4d-43af"/>
+                        <infoLink name="Heavy gauss cannon" id="9a5c-f336-57cb-406c" hidden="false" type="profile" targetId="d0c1-0d8c-7812-4bc2"/>
                     </infoLinks>
                 </selectionEntry>
             </selectionEntries>
             <categoryLinks>
-                <categoryLink name="Infantry" hidden="false" id="0fff-e92e-ace7-43730" targetId="Infantry_target_id" primary="false"/>
-                <categoryLink name="Troops" hidden="false" id="0fff-e92e-ace7-43731" targetId="Troops_target_id" primary="true"/>
+                <categoryLink name="Heavy Support" hidden="false" id="a990-ece7-e950-4178" targetId="3aa5-2835-2e04-82bb" primary="true"/>
             </categoryLinks>
             <infoLinks>
-                <infoLink name="Combat Squads" id="140b-dec3-1771-486a" hidden="false" type="rule" targetId="8f6e-bbe5-7444-88b0"/>
-                <infoLink name="They Shall Know No Fear" id="0562-5805-851c-4ef1" hidden="false" type="rule" targetId="72b7-7ea4-4b87-98c0"/>
+                <infoLink name="Reanimation Protocols" id="b1ca-af67-6df0-484c" hidden="false" type="rule" targetId="eff9-4f87-8063-4ea0"/>
+                <infoLink name="<Necron>" id="c91c-6b6f-99d1-4d59" hidden="false" type="rule" targetId="9a38-7161-f769-4dd5"/>
             </infoLinks>
         </selectionEntry>
     </sharedSelectionEntries>
     <entryLinks>
-        <entryLink import="true" name="Cryptomancer Squad" hidden="false" id="5e28-17ba-5d83-4e8c" type="selectionEntry" targetId="bbff-3614-2645-4a78">
+        <entryLink import="true" name="Cryptomancer" hidden="false" id="3461-2044-bbf3-4251" type="selectionEntry" targetId="bbff-3614-2645-4a78">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="a7b6-2971-ad9b-4b3a" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="HQ" hidden="false" id="53bb-5b9b-3102-4ed1" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Lord Squad" hidden="false" id="7154-6945-2f64-4f2e" type="selectionEntry" targetId="ceff-75fd-cdc0-4371">
+        <entryLink import="true" name="Lord" hidden="false" id="1fc0-8025-bc03-47b6" type="selectionEntry" targetId="ceff-75fd-cdc0-4371">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="0efd-4e95-1fc3-4269" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="HQ" hidden="false" id="6d39-70ca-f43d-447d" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Royal Warden Squad" hidden="false" id="6973-a478-8fb1-4c40" type="selectionEntry" targetId="b67b-30fd-b1ff-4fd0">
+        <entryLink import="true" name="Royal Warden" hidden="false" id="0d09-f654-79b2-4d20" type="selectionEntry" targetId="b67b-30fd-b1ff-4fd0">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="51e2-57a6-4c78-4e42" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="HQ" hidden="false" id="23f7-b3b6-e960-4850" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Skorpekh Lord Squad" hidden="false" id="c453-9afd-df0e-4332" type="selectionEntry" targetId="48c7-b625-e3e0-4917">
+        <entryLink import="true" name="Skorpekh Lord" hidden="false" id="3110-71a3-847d-4d5c" type="selectionEntry" targetId="48c7-b625-e3e0-4917">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="8dfa-5fa8-4c28-4691" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="HQ" hidden="false" id="a777-58c9-1ba1-46da" targetId="681b-82fd-7cc4-8ef8" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Flayed Ones Squad" hidden="false" id="48a2-daec-5dd0-4a36" type="selectionEntry" targetId="3692-6a28-8b06-4e8c">
+        <entryLink import="true" name="Flayed Ones" hidden="false" id="b70a-1403-251c-4a53" type="selectionEntry" targetId="3692-6a28-8b06-4e8c">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="d48a-158c-5370-400e" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Troops" hidden="false" id="c544-d7e8-eee4-4f29" targetId="2a68-9526-9cb0-16c3" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Immortals Squad" hidden="false" id="deb8-aa76-50a5-4b8d" type="selectionEntry" targetId="b8b7-549a-dd78-4dcc">
+        <entryLink import="true" name="Immortals" hidden="false" id="16d6-1db8-5523-4114" type="selectionEntry" targetId="b8b7-549a-dd78-4dcc">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="8c72-ee86-e953-4972" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Troops" hidden="false" id="7d5d-1f7b-286a-406e" targetId="2a68-9526-9cb0-16c3" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Warriors Squad" hidden="false" id="aadf-c4ff-2477-49b6" type="selectionEntry" targetId="4b64-e63e-a368-4ee5">
+        <entryLink import="true" name="Warriors" hidden="false" id="880f-41db-2a06-4738" type="selectionEntry" targetId="4b64-e63e-a368-4ee5">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="df34-ebe9-9e19-4d14" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Troops" hidden="false" id="dbf1-0342-b9ab-4694" targetId="2a68-9526-9cb0-16c3" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Ctan Shard Squad" hidden="false" id="01ca-365f-fed3-49ac" type="selectionEntry" targetId="de9c-d1cc-9a03-42cf">
+        <entryLink import="true" name="C'tan Shard" hidden="false" id="ac65-454c-7924-465a" type="selectionEntry" targetId="4739-2c02-280e-46e0">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="25ab-5fde-4ac9-4961" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Elite" hidden="false" id="978e-2069-7a47-4cb3" targetId="e998-b6e1-9f43-6739" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Ctan Shard of the Dragon Squad" hidden="false" id="377d-b673-36e1-41b8" type="selectionEntry" targetId="ee3b-81d3-e92f-42fc">
+        <entryLink import="true" name="C'tan Shard of the Dragon" hidden="false" id="0a16-6304-cecb-446d" type="selectionEntry" targetId="bc9a-b8bb-10f1-401e">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="8988-10a4-98d3-44d0" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Elite" hidden="false" id="5bf9-00eb-612a-4df8" targetId="e998-b6e1-9f43-6739" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Ctan Shard of the Deceiver Squad" hidden="false" id="ed55-6af9-99c8-4cb6" type="selectionEntry" targetId="fb6d-9d11-5851-4012">
+        <entryLink import="true" name="C'tan Shard of the Deceiver" hidden="false" id="e572-36eb-7d97-44ca" type="selectionEntry" targetId="804c-a39a-d328-4356">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="d7eb-494c-7a5c-437b" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Elite" hidden="false" id="2358-bafe-1819-4e9d" targetId="e998-b6e1-9f43-6739" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Ctan Shard of the Nightbringer Squad" hidden="false" id="b5d1-2e68-a85c-46cc" type="selectionEntry" targetId="138b-8a5c-def5-48ef">
+        <entryLink import="true" name="C'tan Shard of the Nightbringer" hidden="false" id="1a80-6eb3-97fd-455b" type="selectionEntry" targetId="db76-847f-6f46-43a6">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="1346-0cf0-d103-4f44" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Elite" hidden="false" id="f822-fade-3210-4c8f" targetId="e998-b6e1-9f43-6739" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Canoptek Spyders Squad" hidden="false" id="5e4e-a0ed-5c89-409d" type="selectionEntry" targetId="6473-cd14-c520-46bf">
+        <entryLink import="true" name="Canoptek Spyders" hidden="false" id="afb2-c050-5a30-42bd" type="selectionEntry" targetId="6473-cd14-c520-46bf">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="1ea1-7712-e0ac-4f61" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Elite" hidden="false" id="920a-f8a6-6c49-4357" targetId="e998-b6e1-9f43-6739" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Cryptothralls Squad" hidden="false" id="65ae-cc21-111d-4661" type="selectionEntry" targetId="d23a-ccf7-245c-4a0f">
+        <entryLink import="true" name="Cryptothralls" hidden="false" id="a08d-6ec3-7af9-40b3" type="selectionEntry" targetId="d23a-ccf7-245c-4a0f">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="a919-5ce0-d939-4176" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Elite" hidden="false" id="9ec1-ed5e-f5a7-46e2" targetId="e998-b6e1-9f43-6739" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Deathmarks Squad" hidden="false" id="46ca-ace9-fb2f-46a3" type="selectionEntry" targetId="cd3c-6cd4-b6ea-4ae0">
+        <entryLink import="true" name="Deathmarks" hidden="false" id="b644-7066-5559-42e1" type="selectionEntry" targetId="cd3c-6cd4-b6ea-4ae0">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="3537-40e1-d234-47d6" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Elite" hidden="false" id="6739-1869-6b14-475c" targetId="e998-b6e1-9f43-6739" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Hexmark Destroyer Squad" hidden="false" id="988f-95bb-91d5-40bb" type="selectionEntry" targetId="af89-7155-9992-419f">
+        <entryLink import="true" name="Hexmark Destroyer" hidden="false" id="56ed-5129-cbb5-4d03" type="selectionEntry" targetId="af89-7155-9992-419f">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="f5e1-fb9a-5f67-44e2" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Elite" hidden="false" id="4ef0-c58e-2dd1-4cd1" targetId="e998-b6e1-9f43-6739" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Lychguard Squad" hidden="false" id="c8fa-3c31-21b2-4d33" type="selectionEntry" targetId="4855-f423-8400-4b93">
+        <entryLink import="true" name="Lychguard" hidden="false" id="bc15-72ee-344e-46c4" type="selectionEntry" targetId="4855-f423-8400-4b93">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="5c3e-866a-6c09-46e1" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Elite" hidden="false" id="bcac-7ea5-b25e-412b" targetId="e998-b6e1-9f43-6739" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Pariahs Squad" hidden="false" id="6d6c-92df-ad13-4af5" type="selectionEntry" targetId="b25c-3dfc-b8f1-4d1e">
+        <entryLink import="true" name="Pariahs" hidden="false" id="aa75-fd43-f71e-49d1" type="selectionEntry" targetId="b25c-3dfc-b8f1-4d1e">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="243b-a6f5-770d-404e" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Elite" hidden="false" id="410b-6011-00ce-444c" targetId="e998-b6e1-9f43-6739" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Plasmacyte Squad" hidden="false" id="e743-f1fb-0251-4bfa" type="selectionEntry" targetId="4663-e1a6-3804-41c6">
+        <entryLink import="true" name="Plasmacyte" hidden="false" id="dd7d-18f9-0562-4d9a" type="selectionEntry" targetId="4663-e1a6-3804-41c6">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="f013-c28d-3899-4916" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Elite" hidden="false" id="cebf-ba6b-fcb9-45d5" targetId="e998-b6e1-9f43-6739" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Skorpekh Destroyers Squad" hidden="false" id="f17d-06aa-a29c-4f68" type="selectionEntry" targetId="e0ab-b3a8-50f8-487d">
+        <entryLink import="true" name="Skorpekh Destroyers" hidden="false" id="d870-aadb-0770-48b7" type="selectionEntry" targetId="e0ab-b3a8-50f8-487d">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="66d8-86d5-3fe2-4e62" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Elite" hidden="false" id="5a56-6a7c-68bf-4005" targetId="e998-b6e1-9f43-6739" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Canoptek Scarabs Squad" hidden="false" id="1b81-06c2-6e69-4968" type="selectionEntry" targetId="9009-6b5e-8ebf-4d19">
+        <entryLink import="true" name="Canoptek Scarabs" hidden="false" id="e3c6-4776-9037-4dfe" type="selectionEntry" targetId="9009-6b5e-8ebf-4d19">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="9a58-e83b-5ab5-47e9" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Fast Attack" hidden="false" id="4fb1-4310-1b19-455c" targetId="8ba0-ef12-9165-c50c" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Canoptek Wraiths Squad" hidden="false" id="ce4b-d36f-2171-42a3" type="selectionEntry" targetId="f8fe-a5c5-ce4a-4747">
+        <entryLink import="true" name="Canoptek Wraiths" hidden="false" id="faf3-f3fa-e18c-40ec" type="selectionEntry" targetId="f8fe-a5c5-ce4a-4747">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="45e2-37b4-9cee-4265" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Fast Attack" hidden="false" id="37f5-2df2-2f1e-4e26" targetId="8ba0-ef12-9165-c50c" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Ophydian Destroyers Squad" hidden="false" id="93d0-9c4b-6a6f-4303" type="selectionEntry" targetId="4d84-66df-da7a-40d2">
+        <entryLink import="true" name="Ophydian Destroyers" hidden="false" id="5c21-e24f-cbe7-4ec8" type="selectionEntry" targetId="4d84-66df-da7a-40d2">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="c893-c078-0642-4e5e" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Fast Attack" hidden="false" id="ef49-db01-26f3-41c7" targetId="8ba0-ef12-9165-c50c" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Tomb Blades Squad" hidden="false" id="ccbd-74a1-a8fa-47fe" type="selectionEntry" targetId="4796-00de-f46c-4c20">
+        <entryLink import="true" name="Tomb Blades" hidden="false" id="dc5d-e2e6-ea56-40c7" type="selectionEntry" targetId="4796-00de-f46c-4c20">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="9788-1375-f600-4db2" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Fast Attack" hidden="false" id="bdaf-5aba-7020-4a3a" targetId="8ba0-ef12-9165-c50c" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Triarch Praetorians Squad" hidden="false" id="9dd7-8783-ef58-4f1f" type="selectionEntry" targetId="1120-b94f-f378-4d57">
+        <entryLink import="true" name="Triarch Praetorians" hidden="false" id="f143-7cb8-943e-4930" type="selectionEntry" targetId="1120-b94f-f378-4d57">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="cd87-641b-7729-4302" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Fast Attack" hidden="false" id="0021-a6bf-fe82-49e2" targetId="8ba0-ef12-9165-c50c" primary="true"/>
         </categoryLinks>
         </entryLink>
-        <entryLink import="true" name="Lokhust Destroyers Squad" hidden="false" id="0b45-6a99-e551-4b6c" type="selectionEntry" targetId="fc77-0622-4707-4e39">
+        <entryLink import="true" name="Lokhust Destroyers" hidden="false" id="b3b0-1d18-aaf2-4114" type="selectionEntry" targetId="fc77-0622-4707-4e39">
         <categoryLinks>
-            <categoryLink name="Troops" hidden="false" id="7c74-d80a-5424-4876" targetId="Troops_target_id" primary="true"/>
+            <categoryLink name="Heavy Support" hidden="false" id="ee33-76df-4791-4bb1" targetId="3aa5-2835-2e04-82bb" primary="true"/>
         </categoryLinks>
         </entryLink>
     </entryLinks>
     <sharedRules>
-    <rule name="They Shall Know No Fear" id="72b7-7ea4-4b87-98c0" hidden="false">
-        <description>A pinned or fleeing unit automatically regroups at the start of the turn or when it reaches the edge of the board. It can never use the &quot;Take cover&quot; Defensive reaction.</description>
+    <rule name="Gauss" id="5964-7270-0ed0-46b3" hidden="false">
+        <description>To wound rolls of 5+ always wound the target and inflict an automatic glancing hit with AT(1) on vehicles unless the armor penetration is already sufficient for a penetrating hit.</description>
+    </rule>
+    <rule name="Tesla" id="a46e-c5c8-0256-4fc9" hidden="false">
+        <description>To hit rolls of 5+ are always successful and the target suffers 2 additional automatic hits.</description>
+    </rule>
+    <rule name="Reanimation Protocols" id="19cf-5493-0614-4436" hidden="false">
+        <description>The army receives 3 Reanimation Points (RPoints) for every 500 points of game size. These points can be used to heal wounded or fallen models.
+During the Reinforcement phase, each unit must be allocated at least as many RPoints with this rule as the number of wounds it has lost so far (including slain models).
+If the RPoints are not enough for all models, the player can decide which units receive the RPoints.
+A unit can only gain more RPoints than lost wounds if there is no other unit that has not yet gained as many RPoints as it has lost wounds.
+Roll one die for every RPoint. On a 4+, the unit regains one wound and the RPoint is retained for the upcoming Reinforcement phase. Damaged models have to be healed up first before any slain model can return to the unit.
+On a 3, the unit gains no wound and the RPoint is retained for the upcoming Reinforcement phase.
+On a 1 or 2, the unit gains no wound and the RPoint is lost for the rest of the game.
+If a unit has been completely wiped out, leave the last model on the field until the next Reinfocement phase, where it may be revived with RPoints. Such units take a -1 penalty on the roll. If the unit is not revived (either because no roll was successful or no attempt was made), it is permanently removed from play.
+Slain models that are restored with RPoints have to be placed into direct base contact with as many of the remaining models of the unit as possible. Unless the unit is still engaged with an enemy in melee, they may not be placed in direct base contact with an enemy model (and only with models that their unit is already engaged with).
+Some units are able to gain "temporary RPoints". These RPoints are resolved normally as described above, but will be discarded automatically at the end of the current battle round and have no effect on the remaining RPoint pool of the player.
+If a model is killed by a weapon that has at least twice the Strength of its own Toughness, it cannot use Reanimation Protocols.
+For rules like "Power through Pain", a unit is only considered eliminated when it can no longer use RP, or no models make or succeed in their RP rolls in the upcoming Reinforcement phase. If it is the last round of a game, the unit is considered destroyed when it loses its last wound.</description>
     </rule>
     </sharedRules>
 </catalogue>
